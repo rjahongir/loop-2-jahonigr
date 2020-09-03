@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   padding: 0;
   margin: 0;
   font-family: "Roboto", "Arial", sans-serif;
@@ -29,14 +29,14 @@ body{
   overflow: hidden;
 }
 
-.container{
+.container {
   max-width: 600px;
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.material-types{
+.material-types {
   display: flex;
   align-items: center;
   padding: 0;
@@ -44,3 +44,6 @@ body{
   list-style-type: none;
 }
 
+.material-type:not(:last-child) {
+  margin-right: 50px;
+}
