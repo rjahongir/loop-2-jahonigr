@@ -50,9 +50,13 @@ body {
 
 .material-type-button{
   padding: 0;
+  border: none;
+  outline-color: transparent;
   font-size: 40px;
   font-weight: bold;
+  text-transform: uppercase;
   background: none;
   /* background-color: transparent; */
   color: rgba(255, 255, 255, 0.562);
+  cursor: pointer;
 }
