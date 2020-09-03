@@ -62,6 +62,10 @@ body {
   transition: color 0.5s ease;
 }
 
+.matterial-types-active .material-type-button{
+  color: #fff;
+}
+
 .material-type-button:hover{
   color: rgba(255, 255, 255, 0.897);
 }
