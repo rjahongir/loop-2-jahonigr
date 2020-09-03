@@ -11,21 +11,45 @@
 </head>
 
 <body>
-<div class="container">
-   <ul class="material-types">
-      <li class="material-type matterial-types-active"><button class="material-type-button">synthetic</button></li>
-      <li class="material-type"><button class="material-type-button">wool</button></li>
-      <li class="material-type"><button class="material-type-button">denim</button></li>
-      <li class="material-type"><button class="material-type-button">silk</button></li>
-      <li class="material-type"><button class="material-type-button">line</button></li>
-   </ul>
-   <p class="material-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatum architecto ratione animi!</p>
-   <div class="main-wrapper">
-      <table class="details-table">
-         
-      </table>
+   <div class="container">
+      <ul class="material-types">
+         <li class="material-type matterial-types-active"><button class="material-type-button">synthetic</button></li>
+         <li class="material-type"><button class="material-type-button">wool</button></li>
+         <li class="material-type"><button class="material-type-button">denim</button></li>
+         <li class="material-type"><button class="material-type-button">silk</button></li>
+         <li class="material-type"><button class="material-type-button">line</button></li>
+      </ul>
+      <p class="material-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatum architecto
+         ratione animi!</p>
+      <div class="main-wrapper">
+         <table class="details-table">
+            <tbody class="details-table-body">
+               <tr class="details-table-row details-table-row-timer">
+                  <th class="details-table-heading">Timer</th>
+                  <td class="details-table-data">45 min</td>
+               </tr>
+               <tr class="details-table-row details-table-row-temp">
+                  <th class="details-table-heading">Temperature</th>
+                  <td class="details-table-data">Cold</td>
+               </tr>
+               <tr class="details-table-row details-table-row-load">
+                  <th class="details-table-heading">Load</th>
+                  <td class="details-table-data">Medium</td>
+               </tr>
+            </tbody>
+         </table>
+         <button class="controls-button controls-button-prev" type="button">
+            <span class="visually-hidden">Previous</span>
+            <span class="controls-button-inner" aria-hidden="true"></span>
+         </button> 
+         <button class="controls-button controls-button-next" type="button">
+            <span class="visually-hidden">Next</span>
+            <span class="controls-button-inner" aria-hidden="true"></span>
+         </button> 
+        
+         <button class="start-button"type="button">start</button>
+      </div>
    </div>
-</div>
 </body>
 
 </html>
